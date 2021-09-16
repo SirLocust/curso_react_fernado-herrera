@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom'
-import { App } from './App'
+// eslint-disable-next-line import/namespace
+import { GifExpertApp } from './components/GifExpertApp'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+ReactDOM.render(<GifExpertApp />, document.getElementById('root'))
